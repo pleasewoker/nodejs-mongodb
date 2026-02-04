@@ -5,17 +5,19 @@
   "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon app.js",
-    "start":"node app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "bson": "^7.2.0",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongoose": "^9.1.5",
+    "mysql2": "^3.16.3",
     "nodemon": "^3.1.11"
   }
 }
